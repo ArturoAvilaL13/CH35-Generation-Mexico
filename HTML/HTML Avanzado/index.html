@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase HTML avanzado</title>
+</head>
+<body>
+    <h1>Ejemplo de tabla</h1>
+    <!--
+        Las tablas son un conjunto estructurado de datos compuesto por filas y columnas.
+    -->
+    <caption>Tabla de nombres</caption>
+    <!--
+        Caption representa un titulo descriptivo de una tabla
+    -->
+    <table border="1"><!--Crea el elemento tabla: con el atributo border le añadimos bordes a nuestra tabla-->
+        <tr><!--Representa una fila-->
+            <th>Encabezado</th><!--Representa las celdas de encabezado-->
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td><!--Representa la primera celda de la fila-->
+            <td>Apellido 1</td><!--Representa la Segunda celda de la fila-->
+        </tr>
+        <tr>
+            <td>Arturo</td>
+            <td>Avila</td>
+        </tr>
+        <tr>
+            <td>Ruben</td>
+            <td>Frances</td>
+        </tr>
+    </table><br>
+    <table border="1">
+        <thead><!--Esta etiqueta agrupa los elementos de la cabecera en la tabla-->
+            <tr>
+                <th colspan="3">
+                    <!--Permite expandir las celdas de datos o de encabezados al numero de columnas que deseemos que ocupe-->
+                    Encabezado de tablas
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Esta etiqueta agrupa los elementos de contenido en la tabla-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+                <td>columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">piesitos</th>
+            </tr>
+        </tfoot>
+    </table><br><br><hr><br>
+
+    <h1>Anclajes: Interno y externo</h1>
+    <a href="#seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</a><br>
+    <a href="#seccion2">Antes de llevar a un peludito a casa</a><br>
+    <a href="#seccion3">¿Cuánto cuesta mantener una mascota?</a><br>
+    <a href="#seccion4">Dueño responsable</a><br>
+    <h2 id="seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="referencia" width="30%">
+    <h3 id="seccion2">
+      Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.  
+    </h3>
+    <p>
+        Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es el hecho de que esta responsabilidad también representa un gasto.
+    </p>
+
+    <h3 id="seccion3">
+        ¿Cuánto cuesta mantener una mascota?
+    </h3>
+    <p>
+        El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.
+    </p>
+    <h3 id="seccion4">Dueño responsable</h3>
+    <p>
+        El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación desde 650 a 1,200 pesos.
+    </p>
+
+    <a href="index.html">Regresar al inicio</a>
+    <br><br><br>
+    <h2>Anclaje externo</h2>
+    <br>
+    <h4>Referenciar un articulo dentro de otro</h4>
+    <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion" target="_blank">Refugios GDL</a>
+    <!--Estos anclajes enlazan a una pagina web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la seccion-->
+    <h5>Anclar numero telefonico</h5>
+    <a href="tel:+520913241894">Llamar a fulanito</a>
+    <br>
+    <h5>Anclaje de whatsapp</h5>
+    <a href="htps://wa.me/1234567890"></a>
+    <!--Estos enlaces abren WhatsApp en un navegador o en la aplicacion movil, para que los usuarios puedan enviar mensajes al numero predefinido-->
+    <br>
+    <h5>Ancljae de Mapa</h5>
+    <a href="https://www.google.com/maps/place/Basilica+of+Our+Lady+of+Guadalupe/@19.4977601,-99.1113302,14z/data=!4m6!3m5!1s0x85d1f99c2a34a9c5:0x21a0eaf9a5286ab0!8m2!3d19.4848572!4d-99.1178616!16zL20vMDVjZ2Zf?entry=ttu" target="_blank">Basilica de guadalupe</a>
+    <!--Estos enlaces nos permiten enlazar ubicaciones especificas en servicios de ampas, seas Google,, para que los usuarios puedan tener la referencia-->
+    <br>
+    <h5>Anclaje de redes sociales</h5>
+    <a href="https://www.facebook.com/UbisoftLATAM" target="_blank">UbisoftLATAM</a>
+    <br>
+    <h1>Video de YouTube Anclado</h1>
+
+    <!-- Cambia "TU_ID_DE_VIDEO" con el ID real de tu video de YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wZniZEbPAzk" frameborder="0" allowfullscreen></iframe>
+    <br><br><hr>
+    <h1>Formularios y tipos de entrada</h1>
+    <form action="procesar_formulario" method="post">
+        <!--    
+            La etiqueta form, se utiliza para crear un formulario en HTML que permite a los usuariosingresar informacion.
+
+                action: Especifica a la URL a la que se enviaran los datos del   formulario cuando este se envia.
+
+                method: Define el metodo HTTP que se utilizara para enviar los datos (puede ser "get" o "post")
+        -->
+    </form>
+    <br>
+    <h4>Etiqueta input</h4>
+    <!--
+        La etiqueta input se utiliza para crear campos de entrada en un formulario
+    -->
+    Usuario:<input type="text" name="Usuario" placeholder="Usuario"><br>
+    Contraseña:<input type="password" name="password" placeholder="Contraseña"><br>
+    <!-- 
+        type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+        name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+        placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. 
+    -->
+    <h4>Etiqueta label</h4>
+    <label for="usuario">Usuario: 
+    <!--
+        for: es un atributo que se asocia con el "id"
+    -->
+    <input type="text" name="Usuario" id="usuario">
+    </label><br>
+    <h4>Etiqueta button</h4>
+    <!--
+        Esta etiqeuta se utiliza para crear botones en un formulario que los usuarios pueden usar para hacer clic y enviar informacion
+    -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Resetear</button>
+    <br>
+    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea><br>
+    <h4>Numero</h4>
+    <!--
+        Este tipo de entrada crea un campo de entrada para numeros
+    -->
+    <input type="number" name="numer" placeholder="elija el numero"><br>
+    <h4>Correo electronico </h4>
+    <input type="email" name="correo" placeholder="correo"><br>
+    <h4>Numero telefonico (tel)</h4>
+    <input type="tel" name="telefono" placeholder="tel"><br>
+    <h4>fecha (date)</h4>
+    <input type="date" name="fecha" id=""><br>
+    <h4>Hora (time)</h4>
+    <input type="time" name="hora" id=""><br>
+    <h4>Archivo ()</h4>
+    <input type="file" name="archivo" id=""><br>
+</body>
+</html>
