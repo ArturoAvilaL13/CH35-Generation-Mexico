@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <div class="ejercicios">
+        <div>
+            <h3>Edad para voltar</h3>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad">
+        </div>
+        <div>
+            <label for="resEdad">Respuesta:</label>
+            <input type="text" id="resEdad" disabled>
+        </div>
+    </div>
+    <div class="ejercicios">
+        <div>
+            <h3>¿Es divisible entre 7 y 8?</h3>
+        </div>
+        <div>
+            <label for="numProbar">Numero:</label>
+            <input type="text" id="numProbar">
+        </div>
+        <div>
+            <label for="resDivisible">Respuesta:</label>
+            <input type="text" id="resDivisible" disabled>
+        </div>
+    </div>
+    <div class="ejercicios">
+        <div>
+            <h3>¿Es divisible entre 4 o 9?</h3>
+        </div>
+        <div>
+            <label for="numProbar2">Numero:</label>
+            <input type="text" id="numProbar2">
+        </div>
+        <div>
+            <label for="resDivisible2">Respuesta:</label>
+            <input type="text" id="resDivisible2" disabled>
+        </div>
+    </div>
+    <div class="ejercicios">
+        <div>
+            <h3>¿Categoria peliculas?</h3>
+        </div>
+        <div>
+            <label for="categorias">Categoria:</label>
+                <select name="categorias" id="categorias">
+                    <option value="7">Elija</option>
+                    <option value="0">Accion</option>
+                    <option value="1">Drama</option>
+                    <option value="2">Comedia</option>
+                    <option value="3">Romance</option>
+                    <option value="4">Suspenso</option>
+                    <option value="5">Terror</option>
+                    <option value="7">Otro</option>
+                </select>
+        </div>
+        <div>
+            <label for="resCategorias">Respuesta:</label><br>
+            <textarea name="resCategorias" id="resCategorias" cols="25" rows="2" disabled></textarea>
+        </div>
+    </div>
+    <div class="ejercicios">
+        <div>
+            <h3>Cajero el patito</h3> 
+        </div>
+        <div>
+            <label for="categoriasCajero">Operacion:</label>
+                <select name="categoriasCajero" id="categoriasCajero">
+                    <option value="-1"">Elija</option>
+                    <option value="0">1. Retirar dinero</option>
+                    <option value="1">2. Transferencia</option>
+                    <option value="2">3. Deposito</option>
+                    <option value="3">4. Pago de servicio</option>
+                </select>
+        </div>
+        <div>
+            <label for="rescategoriasCajero">Respuesta:</label><br>
+            <textarea name="rescategoriasCajero" id="rescategoriasCajero" cols="25" rows="2" disabled></textarea>
+        </div>
+    </div>
+    <div class="ejercicios">
+        <div>
+            <h3>Cambio de divisas</h3>    
+        </div>
+        <div>
+            <label for="cantidad">Cantidad:</label>
+            <input type="text" id="cantidad">
+        </div>
+        <div>
+            <label for="categoriaCantidad">Cambio:</label>
+            <select name="categoriaCantidad" id="categoriaCantidad">
+                <option value="-1">Elija</option>
+                <option value="0">1. Dolares estadounidenses</option>
+                <option value="1">2. Euros</option>                    
+                <option value="2">3. Yenes japoneses</option>
+                <option value="3">4. Libra esterlina</option>
+                <option value="4">4. Franco suizo</option>
+            </select>
+        </div>
+        <div>
+            <label for="cambio">Cambio:</label>
+            <input type="text" id="cambio" disabled value="">
+        </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

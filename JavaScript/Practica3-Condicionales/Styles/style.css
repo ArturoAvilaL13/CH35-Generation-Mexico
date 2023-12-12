@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.ejercicios{
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(auto,2fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 10px;
+}
+
+.ejercicios > div >h3{
+    /* border: 1px red solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ejercicios > div{
+    /* border: 1px pink solid; */
+    width: 100%;
+    display: flex;
+}
+
+.ejercicios > div > input,
+.ejercicios > div > select{
+    /* border: 1px blue solid; */
+    width: 95%;
+    display: flex;
+}
+
+.ejercicios > div > select{
+    /* border: 1px yellowgreen solid; */
+    width: 95%;
+    display: flex;
+}
+
+.ejercicios > div > textarea{
+    /* border: 1px brown solid; */
+    width: 95%;
+    display: flex;
+}
+
+#edad, #numProbar,
+#numProbar2, #cantidad{
+    width: 40px;
+    margin-left: 5px;
+}
+
+#categoriasCajero,#categorias,#categoriaCantidad{
+    width: fit-content;
+    margin-left: 5px;
+}
+
+#cambio,#rescategoriasCajero,#resCategorias,
+#resDivisible2,#resDivisible,#resEdad{
+    width: fit-content;
+    margin-left: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
