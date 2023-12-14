@@ -132,3 +132,39 @@ var1 <= var3 : ${var1<=var3}
 <*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>
 -----------------------------------------------------------
 `);
+
+//* Operadores logicos && || !
+
+let edad = 15;
+let verificar = true;
+let res = "pUeDe eNtRar";
+
+if (edad >= 18 && verificar === true)
+    console.log(res);
+else
+    console.log("No puede entrar");
+
+if (edad >= 18 || verificar === true)
+    console.log(res.toUpperCase());
+else
+    console.log("No puede entrar");
+
+if (!(edad <= 18) && verificar === true)
+    console.log(res.toLowerCase());
+else
+    console.log("No puede entrar");
+
+//* Operador trim
+//* quita los espacios
+
+let aviso = "          este es un aviso con espacios          ";
+console.log(`
+${aviso}
+${aviso.trim()}
+`);
+
+//* toString y concat
+
+let numerito = 1234;
+let textito = "sdafa";
+let textitoYNumerito = textito.concat(" ",numerito.toString());
