@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2D4B73;
+    font-size: 1rem;
+    border: dotted black .2em;
+    font-weight: 600;
+    margin-top: 10PX;
+    padding: 5PX;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 20px;
+}

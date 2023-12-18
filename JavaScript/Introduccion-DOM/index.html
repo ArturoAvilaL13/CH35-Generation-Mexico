@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <!--Vamos a crear 5 elementos: h1.title, h3.titles, h3.titles y div#dif-->
+    <!-- h1.title#title1+h2.title#title2+h3.title#title*2+div#dif -->
+    <h1 class="title" id="title1">Dom manipulation</h1>
+    <h2 class="title" id="title2">JavaScripot - 06</h2>
+    <h3 class="title" id="title3">El dom es un api para manipular el html</h3>
+    <h3 class="title" id="title4">Usa nodos para acceder, modificar, crear y eliminacion</h3>
+    <div id="dif"></div>
+    <br><hr><br>
+    <!--Button hider-->
+    <button id="card-btn">Mostrar / ocultar elementos</button>
+    <div class="container" id="container-div">
+        <div class="main container">
+            <h2>Eventos</h2>
+            <!--Forms-->
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name" placeholder="Escribe tu nombre de usuario">
+            <label for="userEmail">Email</label>
+            <input type="text" name="userEmail" id="userEmail" placeholder="Escribe tu email">
+            <button id="btn-main">Actualizar perfil</button>
+        </div>
+        <div class="profile">
+            <h2 id="username"></h2>
+            <h3 id="age"></h3>
+            <p id="email"></p>
+            <ul id="fav-films"></ul>
+        </div>
+    </div>
+    <br><hr><br>
+    <a href="./pages/app.html" target="_self">link para app.HTML</a>
+
+<script src="./src/scripts/index.js"></script>
+<script src="./src/scripts/button.js"></script>
+<script src="./src/scripts/card.js"></script>
+</body>
+</html>
