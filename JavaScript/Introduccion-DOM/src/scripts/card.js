@@ -42,14 +42,3 @@ profileBtn.addEventListener("click",()=>{
     email.textContent = inputEmail.value;
 });
 
-//* Esconder el div container-div
-
-const mostarOcultar = document.getElementById("card-btn");
-const containerDiv = document.getElementById("container-div");
-containerDiv.style.visibility = "visible";
-mostarOcultar.addEventListener("click",()=>{
-    if(containerDiv.style.visibility  === "visible")
-        containerDiv.style.visibility  = "hidden";
-    else
-    containerDiv.style.visibility  = "visible";
-});
