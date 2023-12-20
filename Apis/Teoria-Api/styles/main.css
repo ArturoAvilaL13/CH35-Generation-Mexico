@@ -1,24 +1,31 @@
-body{
-    background-color: #3F76A6;
-    color: #F2F2EB;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  background-color: #3f76a6;
+  color: #f2f2eb;
+  font-family: "Courier New", Courier, monospace;
 }
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-button{
-    padding: 8px 15px;
-    border-radius: 8px;
-    border: solid #0d0c0c 2px;
-    box-shadow: #0d0c0c 0px 2px 6px -1px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+button {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: solid #0d0c0c 2px;
+  box-shadow: #0d0c0c 0px 2px 6px -1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 15px;
 }
 
-button:hover{
-    background-color: #033e8c;
-    color: #f2f2eb;
-    border: none;
+button:hover {
+  background-color: #033e8c;
+  color: #f2f2eb;
+  border: none;
 }
+
+/* #mensaje,#storeInfo{
+    text-align: center;
+} */

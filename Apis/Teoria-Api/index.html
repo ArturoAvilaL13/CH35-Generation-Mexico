@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./src/JavaScripts/main.js" defer></script>
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <!--Para trabajar con funciones asyn, agregamos un atributo de tipo asyn al momento de enlazar nuestro script-->
+    <script src="./src/JavaScripts/main.js" async defer></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
     <section class="container">
-        <h2>Datos</h2>
-        <button id="mensaje">Traer informacion</button>
-        <div></div>
-        <h2></h2>
+      <h2>Datos</h2>
+      <button id="btn-mensaje">Traer informacion</button>
+      <div id="mensaje"></div>
+      <!-- <h2></h2> -->
     </section>
     <section class="container">
-        <h2>Productos</h2>
-        <button id="store">Mostrar producto</button>
-        <div></div>
+      <h2>Productos</h2>
+      <button id="store">Mostrar producto</button>
+      <div id="storeInfo"></div>
     </section>
-</body>
+  </body>
 </html>

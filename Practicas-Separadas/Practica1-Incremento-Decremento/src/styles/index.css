@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: darkblue;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
+}
+h2,
+h3 {
+  grid-column: span 3;
+}
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: antiquewhite;
+}
