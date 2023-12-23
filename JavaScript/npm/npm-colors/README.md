@@ -29,3 +29,9 @@ const colors = require("colors");
 ```sh
 node archivo.js
 ```
+
+8. Eliminar (desinstalar) modulos de npm
+
+```sh
+npm uninstall colors
+```
