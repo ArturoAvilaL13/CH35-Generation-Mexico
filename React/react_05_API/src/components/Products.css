@@ -1,0 +1,18 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products--card {
+  border: solid rgb(130, 13, 226) 2px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 15px;
+  color: aliceblue;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
