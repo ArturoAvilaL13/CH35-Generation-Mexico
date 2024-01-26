@@ -8,7 +8,7 @@ public class Codigo4 {//No tiene una clase main, asi que hay que crearla
 		Scanner scan = new Scanner(System.in);//Le falta el argumento System.in y refactorizamos s -> scan
 	    
 	    System.out.print("Turno del jugador 1 (introduzca piedra, papel o tijeras): ");
-	    String jugador1 = scan.nextLine();//Refactorizamos la variable a juador1
+	    String jugador1 = scan.nextLine();//Refactorizamos la variable j1 -> juador1
 	    
 	    System.out.print("Turno del jugador 2 (introduzca piedra, papel o tijeras): ");//cambiamos el mensaje para que muestre 2 en lugar de 1
 	    //Scanner s2 = new Scanner();//Este scanner es inservible por que podemos seguir utilizando el primero, hasta que no se cierre
@@ -23,7 +23,6 @@ public class Codigo4 {//No tiene una clase main, asi que hay que crearla
 	          if (jugador2.equals("tijeras")) {//se debe  usar .equals
 	            ganador = 1;
 	          }
-
 	        case "papel":
 	          if (jugador2.equals("piedra")) {//le hace falta cerra las llaves, .iquals para comparar Strings
 	            ganador = 1;
